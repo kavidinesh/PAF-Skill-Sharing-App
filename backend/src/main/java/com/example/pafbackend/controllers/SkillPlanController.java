@@ -27,7 +27,6 @@ public class SkillPlanController {
         List<SkillPlan> skillPlans = skillPlanRepository.findByUserId(userId);
         return new ResponseEntity<>(skillPlans, HttpStatus.OK);
     }
-
     // ✅ Create new skill plan (userId comes from frontend or token logic)
     @PostMapping
     public ResponseEntity<SkillPlan> createSkillPlan(@RequestBody SkillPlan skillPlan) {
