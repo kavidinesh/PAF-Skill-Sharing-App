@@ -26,5 +26,5 @@ const MyPost = () => {
     </div>
   );
 };
-
+//exporting the mypost
 export default MyPost;
