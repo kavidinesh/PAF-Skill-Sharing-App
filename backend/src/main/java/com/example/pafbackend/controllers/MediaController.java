@@ -14,7 +14,7 @@ import java.util.List;
 public class MediaController {
 
     private final MediaRepository mediaRepository;
-
+//creating the access methods as
     @Autowired
     public MediaController(MediaRepository mediaRepository) {
         this.mediaRepository = mediaRepository;
