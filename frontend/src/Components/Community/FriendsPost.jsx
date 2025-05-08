@@ -46,7 +46,7 @@ const FriendsPost = ({ post }) => {
   const [commentDeleting, setCommentDeleting] = useState(false);
   const [editFocues, setEditFocused] = useState(false);
   const [selectedCommentId, setSelectedCommentId] = useState();
-  const [isLiked, setIsLiked] = useState(false);
+  //const [isLiked, setIsLiked] = useState(false);
 
   useEffect(() => {
     const userLiked = likes.some((like) => like.userId === snap.currentUser?.uid);
