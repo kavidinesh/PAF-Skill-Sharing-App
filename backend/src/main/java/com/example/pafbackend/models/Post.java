@@ -13,9 +13,9 @@ public class Post {
     @Id
     private String id;
     private String userId;
-    private Date timestamp;
+  /*  private Date timestamp;
     private String contentDescription;
     private String mediaLink;
-    private String mediaType;
+    private String mediaType; */
 }
 
