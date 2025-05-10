@@ -385,7 +385,7 @@ useEffect(() => {
                       <Button
                         danger
                         icon={<DeleteOutlined />}
-                        onClick={() => deleteComment(comment.id)}
+                        onClick={() => deleteComment(comment.id)}//
                         loading={commentDeleting}
                       />
                     </Tooltip>
