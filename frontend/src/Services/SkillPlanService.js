@@ -114,5 +114,5 @@ const SkillPlanService = {
     }
   }  
 };
-
+//exporting skillplan
 export default SkillPlanService;
