@@ -100,3 +100,4 @@ public class Project {
         this.price = price;
     }
 }
+// public void setPrice(double price) {
