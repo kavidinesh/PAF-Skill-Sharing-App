@@ -19,3 +19,4 @@ public class SkillPlan {
     private String date;
     private boolean isFinished;
 }
+//skillplan added
