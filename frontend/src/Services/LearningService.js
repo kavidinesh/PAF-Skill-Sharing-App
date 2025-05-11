@@ -83,5 +83,5 @@ class LearningService {
     }
   }
 }
-
+//exporting learning service
 export default new LearningService();
