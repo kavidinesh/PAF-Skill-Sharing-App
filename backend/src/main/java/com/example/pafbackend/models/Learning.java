@@ -37,3 +37,4 @@ public class Learning {
     private String workshopName;        // For "Workshops/Bootcamps"
     private String duration;            // For "Workshops/Bootcamps"
 }
+//learning java part
