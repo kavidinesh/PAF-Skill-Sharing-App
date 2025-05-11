@@ -401,3 +401,4 @@ useEffect(() => {
 };
 
 export default FriendsPost;
+//exporting friend post
