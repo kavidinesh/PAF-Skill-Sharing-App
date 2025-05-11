@@ -49,5 +49,5 @@ const Home = () => {
     </div>
   );
 };
-
+//home view
 export default Home;
